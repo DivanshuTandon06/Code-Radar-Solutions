@@ -2,7 +2,7 @@
 
 int main() {
     char  a;
-    scanf("%s",&a);
-    printf("ASII Value: %s",a );
+    scanf("%c",&a);
+    printf("ASII Value: %d",a );
     return 0;
 }
