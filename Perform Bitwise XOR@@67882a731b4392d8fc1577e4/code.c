@@ -3,6 +3,6 @@
 int main() {
     int a,b;
     sdcanf("%d%d",&a,&b);
-    printf("%d",aXb );
+    printf("%d",a^b );
     return 0;
 }
