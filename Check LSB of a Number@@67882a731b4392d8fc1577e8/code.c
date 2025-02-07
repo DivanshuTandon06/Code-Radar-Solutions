@@ -5,10 +5,10 @@ int main() {
     scanf ("%d",&a);
     int lsb=a&1;
     if (lsb==1){
-    printf("set");
+    printf("Set");
     }
     else {
-        printf("not set");
+        printf("Not Set");
     }
     return 0;
 }
