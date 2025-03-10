@@ -1,13 +1,9 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    scanf("%i %i"&a,&b);
-    array()=[];
-    if (a>=0){
-        int b=a%2;
-        array+=b;
-    }
-    printf(array);
+    scanf("%d%d"&a,&b);
+    int num=(a>>b)&1;
+    printf(num);
 return 0;
     
 }
