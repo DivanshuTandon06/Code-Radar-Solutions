@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    scanf("%d%d"&a,&b);
+    scanf("%i %i"&a,&b);
     array()=[];
     if (a>=0){
         int b=a%2;
