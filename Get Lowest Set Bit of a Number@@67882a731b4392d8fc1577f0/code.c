@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    int b=a&-a;
-    printf("%d",b);
+    int n;
+    scanf("%d",&n);
+    int bit_pos=n&-n;
+    printf("%d",bit_pos);
     
     return 0;
     }
