@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&a);
     int b=0;
     int mask =b|a;
-    printf("%d",b);
-    
+    printf("%d",mask);
+
 }
 int a,b;
