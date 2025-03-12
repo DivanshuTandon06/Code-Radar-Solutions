@@ -6,7 +6,7 @@ int main(){
     if (assi_val<=90 &&assi_val>=70)
     printf("Uppercase");
     else{
-        printf("Lowercase")
+        printf("Lowercase");
     }
     return 0;
     }
