@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("d",&a);
-    if (a%12 ==1 & a%12==1){
+    if (a%11==0 && a%5==0){
         printf("Divisible");
     }
     else{
