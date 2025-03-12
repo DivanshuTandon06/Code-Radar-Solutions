@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char  a,;
+    char  a;
     scanf("%c",&a);
    int assi_val=a;
     if (assi_val<=90 &&assi_val>=70)
