@@ -7,6 +7,6 @@ printf("Equilateral");
 else if(a!=b &&a!=b &&b!=c)
 printf("Scalene");
 else if(a==b ||a==c ||b==c)
-printf("Isoceles");
+printf("Isosceles");
 return 0;
 }
