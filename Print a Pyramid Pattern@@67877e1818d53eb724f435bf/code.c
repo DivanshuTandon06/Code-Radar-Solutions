@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%d",&a);
-    for (int i=o;i<a;i++){
+    for (int i=0;i<a;i++){
         for (int j=0 ;j<=i;j++){
             if(j%2==0)
             printf(" ");
