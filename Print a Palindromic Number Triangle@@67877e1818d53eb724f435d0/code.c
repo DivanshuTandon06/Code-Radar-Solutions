@@ -5,7 +5,7 @@ int main(){
     for (int i=1;i<=a;i++){
         for(int j=0;j<=a;j++){
             if(i+j>=2)
-            printf(j):
+            printf("%d",j):
             else 
             printf(" ");
         }
