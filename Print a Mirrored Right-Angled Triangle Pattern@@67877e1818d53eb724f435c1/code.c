@@ -3,10 +3,10 @@ int main (){
     int a;
     scanf("%d",&a);
     for(int i=0;i<a;i++){
-        if(I+j<=a)
+        for (int j=a;j>=i;j--){
+        printf("*");
+        }
         printf(" ");
-        else 
-        printf("* ");
     }
     return 0;
 }
