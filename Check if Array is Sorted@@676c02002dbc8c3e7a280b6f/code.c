@@ -17,7 +17,11 @@ int main(){
         }
     }
 for(int l=0;l<n;l++){
-    printf("%d ",arr[l]);
+    if(arr[i]>arr[i+1]){
+        printf("Not Sorted");
+        return 0;
     }
+    }
+    printf("Sorted");
     return 0;
 }
