@@ -2,9 +2,12 @@
 int main(){
     int n,b;
     scanf("%d",&n);
-    int arr[n];
+    int arr[n], arr2[n];
     for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);
+    }
+    for(int i = 0; i<n; i++){
+        arr2[i] = arr[i];
     }
     for (int j=0;j<n;j++){
         for (int k=j+1;k<n;k++){
@@ -17,7 +20,7 @@ int main(){
         }
     }
 for(int l=0;l<n-1;l++){
-    if(arr[l]>arr[l+1]){
+    if(arr2[l] != arr[l]){
         printf("Not Sorted");
         return 0;
     }
