@@ -9,17 +9,16 @@ int main(){
     for(int i = 0; i<n; i++){
         arr2[i] = arr[i];
     }
-    for (int j=0;j<n;j++){
+    for (int j=0;j<n-1;j++){
         for (int k=j+1;k<n;k++){
             if (arr[j]>arr[k]){
             int temp =arr[j];
-            arr[k]=arr[j];
-            arr[j]=temp;
+            arr[j]=arr[k];
+            arr[k]=temp;
             }
-
         }
     }
-for(int l=0;l<n-1;l++){
+for(int l=0;l<n;l++){
     if(arr2[l] != arr[l]){
         printf("Not Sorted");
         return 0;
